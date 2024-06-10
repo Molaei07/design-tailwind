@@ -2,7 +2,7 @@
 export const ItemsMenu = ({ name }) => {
     return (
         <>
-            <li className="cursor-pointer">{name}</li>
+            <li className="cursor-pointer hover:font-bold w-1/5 text-center transition-all duration-100">{name}</li>
         </>
     );
 }
@@ -12,12 +12,14 @@ export const Header = () => {
         <>
             <header className="w-full gap-y-4 px-[10px] sm:px-[50px] py-4 flex justify-between items-center flex-wrap shadow-lg lg:justify-evenly lg:gap-y-0">
                 {/* Logo */}
-                <div className="w-[30%] flex justify-start gap-x-2 items-center lg:w-[150px]">
-                    <div className="w-[30px] h-[30px] bg-blue-500"></div>
-                    <span className="text-blue-500 text-[12px]">mangcoding Store</span>
+                <div className="w-[40%] flex justify-start gap-x-2 items-center lg:w-[150px]">
+                    <div className="w-[30px] h-[30px]">
+                        <img src="./Logo.png" alt="Logo" className="w-full h-full" />
+                    </div>
+                    <span className="text-[#545BE8] text-[12px]">mangcoding Store</span>
                 </div>
                 {/* Item in menu */}
-                <ul className="w-full order-1 flex justify-between lg:w-[30%] lg:order-none">
+                <ul className="w-full order-1 flex justify-between text-[12px] lg:w-[40%] lg:order-none sm:text-[15px]">
                     <ItemsMenu name="Home" />
                     <ItemsMenu name="Course" />
                     <ItemsMenu name="About Us" />
@@ -25,11 +27,11 @@ export const Header = () => {
                     <ItemsMenu name="Contact" />
                 </ul>
                 {/* Btn to sing */}
-                <div className="w-[60%] flex justify-between gap-x-[20px] lg:w-[20%]">
-                    <div className="w-[50%] p-2 rounded-lg text-center text-blue-500 border border-blue-500 border-solid">
+                <div className="w-[50%] flex justify-between gap-x-[5px] lg:w-[20%] lg:gap-x-[20px]">
+                    <div className="text-[#545BE8] border border-[#545BE8] border-solid entryBtn">
                         Log in
                     </div>
-                    <div className="w-[50%] p-2 rounded-lg text-center text-white bg-blue-500">
+                    <div className="registerBtn">
                         Register
                     </div>
                 </div>

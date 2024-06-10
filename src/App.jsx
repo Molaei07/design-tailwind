@@ -1,3 +1,4 @@
+import { Content } from './components/content/content'
 import { Header } from './components/header/header'
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <Header />
+      <Content />
     </>
   )
 }

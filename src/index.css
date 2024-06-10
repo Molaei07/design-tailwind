@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    /* This btn in headers application */
+  .entryBtn {
+    @apply w-[50%] p-1 rounded-lg text-center sm:p-2;
+  }
+  .registerBtn {
+    @apply text-white bg-[#545BE8] entryBtn
+  }
+}
+
+@layer utilities {
+  .triangle{
+    width: 0;
+    height: 0;
+    border-top: 80px solid #f4f4f4;
+    border-bottom: 80px solid transparent;
+    border-left: 80px solid transparent;
+  }
+}
