@@ -8,7 +8,10 @@
     @apply w-[50%] p-1 rounded-lg text-center sm:p-2;
   }
   .registerBtn {
-    @apply text-white bg-[#545BE8] entryBtn
+    @apply text-white bg-mainColor entryBtn
+  }
+  .linkInFooter {
+    @apply w-full h-[20px] lg:h-[24px] text-center sm:text-left text-xs lg:text-base text-[#F4F4F4]
   }
 }
 

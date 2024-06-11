@@ -16,7 +16,7 @@ export const Header = () => {
                     <div className="w-[30px] h-[30px]">
                         <img src="./Logo.png" alt="Logo" className="w-full h-full" />
                     </div>
-                    <span className="text-[#545BE8] text-[12px]">mangcoding Store</span>
+                    <span className="text-mainColor text-[12px]">mangcoding Store</span>
                 </div>
                 {/* Item in menu */}
                 <ul className="w-full order-1 flex justify-between text-[12px] lg:w-[40%] lg:order-none sm:text-[15px]">
@@ -28,7 +28,7 @@ export const Header = () => {
                 </ul>
                 {/* Btn to sing */}
                 <div className="w-[50%] flex justify-between gap-x-[5px] lg:w-[20%] lg:gap-x-[20px]">
-                    <div className="text-[#545BE8] border border-[#545BE8] border-solid entryBtn">
+                    <div className="text-mainColor border border-mainColor border-solid entryBtn">
                         Log in
                     </div>
                     <div className="registerBtn">
