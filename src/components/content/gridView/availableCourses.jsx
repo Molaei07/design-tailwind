@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export const AvailableItems = ({price, name, viewNumber, videoNumber, teacherNumber, picture}) => {
     return (
-        <div className="w-[48%] h-[250px] xl:h-[300px] rounded-lg overflow-hidden flex flex-wrap justify-center shadow-xl">
+        <div className="w-[48%] h-[250px] xl:h-[300px] rounded-lg overflow-hidden flex flex-wrap justify-center shadow-xl transition-all duration-200 cursor-pointer hover:scale-105">
             <div className="w-full h-3/4 relative">
                 <img className="w-full h-full" src={"./" + picture} alt="Logo" />
                 <div className="absolute top-6 left-0 p-1 lg:p-2 bg-mainColor text-white">Best Course</div>
@@ -12,8 +12,8 @@ export const AvailableItems = ({price, name, viewNumber, videoNumber, teacherNum
                 <h1 className="w-1/2 h-1/2 text-[#141E32] text-sm lg:text-base xl:text-xl xl:font-[700]">{name}</h1>
                 <span className="w-1/2 text-right text-xs lg:text-sm xl:text-base text-mainColor h-/1/2">{viewNumber} Views</span>
                 <div className="w-full h-1/2 flex gap-x-2">
-                    <span className="text-[#969696] text-xs lg:text-sm xl:text-base">{videoNumber} Videos</span>
-                    <span className="text-[#969696] text-xs lg:text-sm xl:text-base">{teacherNumber} Teacher</span>
+                    <span className="text-grayText text-xs lg:text-sm xl:text-base">{videoNumber} Videos</span>
+                    <span className="text-grayText text-xs lg:text-sm xl:text-base">{teacherNumber} Teacher</span>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@ export const AvailableCourses = () => {
             <div className="w-full order-[-1] sm:order-1 sm:w-1/3 pt-2">
                 <a className="text-mainColor text-sm xl:text-base w-full" href="#">AVAILABLE FOR YOU</a>
                 <h1 className="w-2/3 text-[#141E32] text-2xl xl:text-4xl font-[700] xl:mt-4">Available Courses</h1>
-                <p className="w-full xl:w-3/4 text-sm text-[#969696] xl:mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                <p className="w-full xl:w-3/4 text-sm text-grayText xl:mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
                 <button className="registerBtn mt-2 xl:mt-4">See all</button>
             </div>
         </div>

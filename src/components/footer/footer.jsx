@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export const SocialMediaItems = ({ picture }) => {
     return (
-        <li className="w-[25px] lg:w-[30px] h-[25px] lg:h-[30px] border-2 border-white border-solid">
+        <li className="w-[25px] lg:w-[30px] h-[25px] lg:h-[30px] border-2 border-white border-solid cursor-pointer">
             <img className="w-full h-full" src={"./" + picture} alt="Logo" />
         </li>
     );

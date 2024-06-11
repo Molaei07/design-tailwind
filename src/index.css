@@ -3,20 +3,30 @@
 @tailwind utilities;
 
 @layer components {
-    /* This btn in headers application */
+  /* This btn in headers application */
   .entryBtn {
-    @apply w-[50%] p-1 rounded-lg text-center sm:p-2;
+    @apply w-[50%] p-1 rounded-lg text-center sm:p-2 cursor-pointer transition-all duration-200;
+  }
+  .entryBtn:hover {
+    @apply bg-slate-50;
   }
   .registerBtn {
-    @apply text-white bg-mainColor entryBtn
+    @apply text-white bg-mainColor entryBtn transition-all duration-200 cursor-pointer;
   }
+  .registerBtn:hover {
+    @apply bg-blue-800;
+  }
+  
   .linkInFooter {
-    @apply w-full h-[20px] lg:h-[24px] text-center sm:text-left text-xs lg:text-base text-[#F4F4F4]
+    @apply w-full h-[20px] lg:h-[24px] text-center sm:text-left text-xs lg:text-base text-[#F4F4F4];
+  }
+  .linkInFooter:hover {
+    @apply underline;
   }
 }
 
 @layer utilities {
-  .triangle{
+  .triangle {
     width: 0;
     height: 0;
     border-top: 80px solid #f4f4f4;

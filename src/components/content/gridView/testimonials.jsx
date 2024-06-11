@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export const TestimonialItems = ({name, picture, type}) => {
     return (
-        <div className="w-full sm:w-[48%] h-auto flex flex-wrap gap-y-4 shadow-xl px-6 py-8 relative">
+        <div className="w-full sm:w-[48%] h-auto flex flex-wrap gap-y-4 shadow-xl px-6 py-8 relative transition-all duration-200 hover:scale-105">
             <div className="w-full h-fit flex gap-x-2">
                 <div className="overflow-hidden rounded-full w-[50px] h-[50px]">
                     <img className="w-full h-full" src={"./" + picture} alt="Logo" />
