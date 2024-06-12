@@ -6,8 +6,8 @@ export const DarkMode = ({darkMode, setDarkMode}) => {
     }
 
     return (
-        <button onClick={toggleDarkMode} className='p-4 text-white bg-slate-900 rounded-full fixed left-4 top-1/2'>
-            {darkMode ? 'LIGHT' : 'DARK'}
+        <button onClick={toggleDarkMode} className='font-mono p-4 font-bold text-white bg-slate-900 dark:bg-white dark:text-slate-900 rounded-full fixed left-8 bottom-20'>
+            {darkMode ? 'LIT' : 'DRK'}
         </button>
     );
 }
