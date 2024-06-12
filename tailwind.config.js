@@ -10,8 +10,10 @@ export default {
       colors: {
         'mainColor': '#545BE8',
         'grayText': '#969696',
+        'darkGray': '#121212'
       }
     },
   },
+  darkMode: 'class',
   plugins: [],
 }

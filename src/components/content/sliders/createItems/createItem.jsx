@@ -55,7 +55,7 @@ export const CreateItems = () => {
                 transitionDuration={500}
                 containerClass="carousel-container pb-10"
                 deviceType={'desktop'}
-                itemClass="w-[100%] h-full rounded-lg bg-[#545BE8] px-4 py-4 lg:py-8 flex flex-wrap"
+                itemClass="w-[100%] h-full rounded-lg bg-[#545BE8] px-4 py-4 lg:py-8 flex flex-wrap dark:bg-blue-900"
                 sliderClass="gap-x-0 sm:gap-x-4 relative"
                 arrows={false}
                 customButtonGroup={<ButtonGroup />}
