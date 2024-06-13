@@ -10,7 +10,7 @@ export const SelectedCourseInfo = ({ number, name }) => {
 
 export const ChooseCoursePoster = () => {
     return (
-        <div className="bg-mainColor dark:bg-blue-950 w-full flex justify-center items-center px-4 lg:px-20 lg:py-8">
+        <div className="bg-mainColor dark:bg-blue-950 w-full flex justify-center items-center px-4 py-4 lg:px-20 lg:py-8">
             <div className="flex justify-between items-center gap-x-8 md:gap-x-0 w-full  md:w-[85%]">
                 <div className="hidden sm:block w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px]">
                     <img className="w-full h-full" src="./Group 1964.png" alt="Logo" />
