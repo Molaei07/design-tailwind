@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  /* This class for items in menu that they are in the header */
+  .itemMenu {
+    @apply dark:text-white cursor-pointer hover:font-bold w-1/5 text-center transition-all duration-100
+  }
   /* This btn in headers application */
   .entryBtn {
     @apply w-[50%] p-1 rounded-lg text-center sm:p-2 cursor-pointer transition-all duration-200;
