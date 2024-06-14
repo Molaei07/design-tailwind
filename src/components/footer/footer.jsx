@@ -1,20 +1,10 @@
 /* eslint-disable react/prop-types */
+import { LinksInFooter } from "./createLinksFooter";
+
 export const SocialMediaItems = ({ picture }) => {
     return (
-        <li className="w-[25px] lg:w-[30px] h-[25px] lg:h-[30px] border-2 border-white border-solid cursor-pointer">
+        <li className="w-6 lg:w-8 h-6 lg:h-8 border-2 border-white border-solid cursor-pointer">
             <img className="w-full h-full" src={"./" + picture} alt="Logo" />
-        </li>
-    );
-}
-
-export const LinksInFooter = ({partName, link1, link2, link3, link4}) => {
-    return (
-        <li className="w-2/4 lg:w-1/4 h-fit flex flex-wrap gap-y-1 lg:gap-y-2">
-            <h1 className="w-full font-bold text-white text-center sm:text-left mb-2">{partName}</h1>
-            <a href="#" className="linkInFooter">{link1}</a>
-            <a href="#" className="linkInFooter">{link2}</a>
-            <a href="#" className="linkInFooter">{link3}</a>
-            <a href="#" className="linkInFooter">{link4}</a>
         </li>
     );
 }
@@ -24,7 +14,7 @@ export const Footer = () => {
         <footer className="w-full lg:h-[400px] bg-[#393E46] flex flex-wrap gap-y-4 md:gap-y-0 md:flex-nowrap justify-center gap-x-4 lg:gap-x-8 px-4 md:px-28 lg:px-48 py-12">
             <div className="w-full md:w-2/5 h-full p-2">
                 <div className="w-full h-auto flex gap-x-2 items-center">
-                    <div className="w-[25px] lg:w-[35px] h-[25px] lg:h-[35px]">
+                    <div className="w-6 lg:w-9 h-6 lg:h-9">
                         <img className="w-full h-full" src="Logo.png" alt="Logo" />
                     </div>
                     <span className="text-white font-bold text-xs lg:text-sm">mangcoding Store</span>
