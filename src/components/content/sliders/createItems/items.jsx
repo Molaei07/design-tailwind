@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export const ItemsSlider = ({logo, name, description}) => {
+const ItemsSlider = ({logo, name, description}) => {
     return (
         <>
             <div>
@@ -12,3 +12,5 @@ export const ItemsSlider = ({logo, name, description}) => {
         </>
     );
 }
+
+export default ItemsSlider;
