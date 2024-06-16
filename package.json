@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-multi-carousel": "^2.8.5"
+    "react-multi-carousel": "^2.8.5",
+    "react-multi-lang": "^2.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
