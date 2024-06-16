@@ -7,7 +7,7 @@ const ItemsSlider = ({logo, name, description}) => {
                     <img className="w-1/2 h-1/2" src={logo} alt="Logo" />
                 </div>
                 <h3 className="w-full text-white font-bold text-sm lg:text-base">{name}</h3>
-                <p className="w-full text-[#DDDDDD] text-xs lg:text-sm">{description}</p>
+                <p className="w-full text-[#DDDDDD] text-xs lg:text-sm scroll-auto">{description}</p>
             </div>
         </>
     );
