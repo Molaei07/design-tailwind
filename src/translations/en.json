@@ -1,0 +1,119 @@
+{
+  "nameApplication": "Course Store",
+  "menu": {
+    "home": "Home",
+    "course": "Course",
+    "aboutUs": "About Us",
+    "article": "Article",
+    "contact": "Contact"
+  },
+  "button": {
+    "logIn": "Log in",
+    "register": "Register",
+    "startVideo": "PlayVideo",
+    "availableCourses": "See all"
+  },
+  "census": {
+    "peopleViews": {
+      "number": "6,000",
+      "name": "People Views"
+    },
+    "user": {
+      "number": "4,000",
+      "name": "User"
+    },
+    "course": {
+      "number": "100",
+      "name": "Course"
+    }
+  },
+  "beginPoster": {
+    "tag": {
+      "base": "Let’s",
+      "bold": "Begins"
+    },
+    "titre": {
+      "base1": "Let's Find The Right",
+      "bold": "Course",
+      "base2": "For you"
+    },
+    "paragraph": "You can find the best courses for free on this site"
+  },
+  "chooseCoursePoster": {
+    "tag": "SELECTED COURSE",
+    "titre": "People Taking Courses",
+    "paragraph": "You can find the best courses for free on this site"
+  },
+  "slider": {
+    "tag": "WHAT WE GIVE",
+    "titer": "What do You Get From Us",
+    "paragraph": "You can buy some courses from us for a very small fee, but get some of our courses for free, including these courses."
+  },
+  "availableCourses": {
+    "tag": "AVAILABLE FOR YOU",
+    "titer": "Available Courses",
+    "paragraph": "You can choose the course you want from the available courses and buy it"
+  },
+  "availableItems": {
+    "tag": "Best Course",
+    "view": "Views",
+    "teacher": "Teacher",
+    "video": "Videos",
+    "item1": {
+      "name": "HTML & CSS"
+    },
+    "item2": {
+      "name": "Photographer"
+    },
+    "item3": {
+      "name": "JavaScript"
+    },
+    "item4": {
+      "name": "Desain Grafis"
+    }
+  },
+  "testimonials": {
+    "titer": "Testimonials",
+    "comment1": {
+      "name": "Sara",
+      "type": "Client",
+      "paragraph": "Don’t marry the person you think you can live with; marry only the individual you think you can’t live without."
+    },
+    "comment2": {
+      "name": "Finkidia",
+      "type": "Client",
+      "paragraph": "Youth is counted sweetest by those who are no longer young."
+    }
+  },
+  "footer": {
+    "paragraph": "Follow us on social networks to get the latest news.",
+    "table": {
+      "home": {
+        "titer": "Home",
+        "item1": "Product",
+        "item2": "Course",
+        "item3": "About Us",
+        "item4": "Log in"
+      },
+      "course": {
+        "titer": "Course",
+        "item1": "HTML & CSS",
+        "item2": "Javascript",
+        "item3": "Photographer",
+        "item4": "Desain Grafis"
+      },
+      "article": {
+        "titer": "Article",
+        "item1": "New",
+        "item2": "Old",
+        "item3": "Trend",
+        "item4": "Popular"
+      },
+      "contactUs": {
+        "titer": "Contact Us",
+        "item1": "CCdoc123@gmail.com"
+      }
+    }
+  }
+}
+
