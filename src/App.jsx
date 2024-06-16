@@ -1,20 +1,25 @@
 /* eslint-disable no-unused-vars */
-import { Content } from './components/content/content'
+import Content from './components/content/content'
 import { Footer } from './components/footer/footer'
-import { Header } from './components/header/header'
-import { DarkMode } from './components/darkMode/darkMode'
-import { useState } from 'react'
+import Header from './components/header/header'
+import DarkMode from './components/darkMode/darkMode'
+import Translate from './translations/translate'
+import { setDefaultLanguage, setDefaultTranslations } from 'react-multi-lang'
+import en from './translations/en.json'
+import fa from './translations/fa.json'
+
+setDefaultLanguage('en')
+setDefaultTranslations({ en, fa })
+
 
 function App() {
-
-  const [darkMode, setDarkMode] = useState(true)
-
   return (
-    <div className={darkMode ? '' : 'dark bg-darkGray'}>
+    <div>
       <Header />
       <Content />
       <Footer />
-      <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
+      <DarkMode />
+      <Translate />
     </div>
   )
 }
