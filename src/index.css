@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Traffic;
+  src: url(./assets/fonts/Traffic.ttf);
+}
+
 @layer components {
   /* This class for items in menu that they are in the header */
   .itemMenu {
@@ -22,7 +27,7 @@
   }
   
   .linkInFooter {
-    @apply w-full h-[20px] lg:h-[24px] text-center sm:text-left text-xs lg:text-base text-[#F4F4F4];
+    @apply w-full h-[20px] lg:h-[24px] text-xs lg:text-base text-[#F4F4F4];
   }
   .linkInFooter:hover {
     @apply underline;
@@ -30,11 +35,24 @@
 }
 
 @layer utilities {
-  .triangle {
+  .triangle-en {
     width: 0;
     height: 0;
     border-top: 80px solid #f4f4f4;
     border-bottom: 80px solid transparent;
     border-left: 80px solid transparent;
+  }
+  .triangle-fa {
+    width: 0;
+    height: 0;
+    border-top: 80px solid #f4f4f4;
+    border-bottom: 80px solid transparent;
+    border-right: 80px solid transparent;
+  }
+  .dirRTL {
+    direction: rtl;
+  }
+  .fontFa{
+    font-family: Traffic;
   }
 }
